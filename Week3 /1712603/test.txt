@@ -1,0 +1,9 @@
+iii.  Tuy cùng 1 key mã hóa nhưng mỗi lần mã sẽ /phải được một kết quả khác nhau (về cả chiều dài lẫn nội dung nhị phân).
+
+iv.  Chương trình mã hóa có obfurcasted code để tăng độ an toàn, tránh không cho người khác dò ra cách làm và giải mã.
+
+v.   Mỗi khi chương trình chạy phải hỏi và kiểm tra 1 mật khẩu "động" và nếu đúng thì mới tiếp tục chạy.
+
+vi.  Chương trình có tính năng phát hiện các dấu hiệu bất thường và xử lý phù hợp (ví dụ: thấy nội dung không như ban đầu 
+(bị crack hoặc có virus bám vào) thì tự khôi phục lại, thấy môi trường chạy không phải là môi trường "lành mạnh" (bị chạy trong 
+sandbox hoặc trong chế độ debug, chương trình không nằm trong đĩa /máy được quy ước, ...) thì không chạy /tự hủy /gây lỗi hệ thống, ...)
